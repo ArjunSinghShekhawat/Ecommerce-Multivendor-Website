@@ -1,0 +1,28 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: Multi-Vendor-Ecommerce
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommerce_multi_vendor
+    username: root
+    password: arjun
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: shekhawatsingharjun12345@gmail.com
+    password: ykza vnle uugs cybm
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  devtools:
+    livereload:
+      enabled: true
